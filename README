@@ -1,0 +1,21 @@
+XWindow low level library using assembly / nasm 64 bits.
+It uses the Objective-C runtime library primitives.
+
+REQUIREMENTS
+- osx
+- gcc (>= Apple LLVM version 8.1.0)
+- nasm (>= version 2.12.02)
+
+BUILD
+- A makefile is available to build the library without Xcode.
+- "make test" to build the example (simple window)
+
+DOCUMENTS
+- syscalls:
+https://opensource.apple.com/source/xnu/xnu-1504.3.12/bsd/kern/syscalls.master
+
+- x86-64 system V ABI:
+https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI
+
+- Intel 64 architecture sw developer's manual:
+https://software.intel.com/sites/default/files/managed/a4/60/325383-sdm-vol-2abcd.pdf
