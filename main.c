@@ -1,4 +1,4 @@
-#include "xlib.h"
+#include "libxasm.h"
 
 int main()
 {

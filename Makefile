@@ -1,13 +1,13 @@
 LIBASM = libxasm.a
 
-SRC = 	xmemset.asm \
-	xputchar.asm \
-	xapp.asm \
-	xloop.asm \
-	xwincreate.asm \
-	xwinfront.asm \
-	xwininit.asm \
-	xwintitle.asm
+SRC = 	memset.asm \
+	putchar.asm \
+	app.asm \
+	loop.asm \
+	wincreate.asm \
+	winfront.asm \
+	wininit.asm \
+	wintitle.asm
 
 FLAGS = -f macho64
 
