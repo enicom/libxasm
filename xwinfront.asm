@@ -19,21 +19,14 @@ global _xwinfront
 
 section .text
 
-s1:	db "makeKeyAndOrderFront:", 0
-s2:	db "orderFrontRegardless", 0
+s1:	db "orderFrontRegardless", 0
 
 _xwinfront:
 	enter 0, 0
 
 	mov rbx, rdi
-	mov rdi, s1
-	call _sel_registerName
-	mov rsi, rax
-	mov rdi, rbx
-	mov rdx, 0
-	call _objc_msgSend
 
-	mov rdi, s2
+	mov rdi, s1
 	call _sel_registerName
 	mov rdi, rbx
 	mov rsi, rax
