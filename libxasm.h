@@ -25,6 +25,7 @@ void *xasm_win();
 void *xasm_wincreate();
 void *xasm_wininit(void *win, double w, double h);
 void *xasm_winselrect();
+void *xasm_auview_generic(void *au);
 void xasm_loop(void *app);
 void xasm_winfront(void *win);
 void xasm_wintitle(void *win, char *title);

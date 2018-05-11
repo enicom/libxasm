@@ -22,7 +22,8 @@ SRC =	memset.asm \
 	winfront.asm \
 	wininit.asm \
 	wintitle.asm \
-	setview.asm
+	setview.asm \
+	auview_generic.asm
 
 FLAGS = -f macho64
 
