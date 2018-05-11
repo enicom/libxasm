@@ -14,18 +14,19 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#ifndef XLIB_H
-# define XLIB_H
-# include <ctype.h>
+#ifndef LIBXASM_H
+# define LIBXASM_H
 
-void *xmemset(void *b, int c, size_t n);
-void *xapp();
-void xloop(void *app);
-void *xwin();
-void *xwincreate();
-void xwinfront(void *win);
-void *xwininit(void *win, double w, double h);
-void *xwinselrect();
-void xwintitle(void *win, char *title);
+#include <ctype.h>
+
+void *xasm_memset(void *b, int c, size_t n);
+void *xasm_app();
+void *xasm_win();
+void *xasm_wincreate();
+void *xasm_wininit(void *win, double w, double h);
+void *xasm_winselrect();
+void xasm_loop(void *app);
+void xasm_winfront(void *win);
+void xasm_wintitle(void *win, char *title);
 
 #endif

@@ -16,7 +16,7 @@ extern	_sel_registerName
 extern  _objc_getClass
 extern	_objc_msgSend
 
-global _xwintitle
+global _xasm_wintitle
 
 section .text
 
@@ -25,7 +25,7 @@ s2:	db "alloc", 0
 s3:	db "initWithCString:", 0
 s4:	db "setTitle:", 0
 
-_xwintitle:
+_xasm_wintitle:
 	enter 0, 0
 
 	mov r13, rdi

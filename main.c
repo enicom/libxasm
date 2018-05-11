@@ -22,12 +22,12 @@ int main()
     void *win;
     void *new_id;
 
-    myapp = xapp();
-    new_id = xwincreate();
-    win = xwininit(new_id, 400.0, 400.0);
-    xwintitle(win, "My window");
-    xwinfront(win);
-    xloop(myapp);
+    myapp = xasm_app();
+    new_id = xasm_wincreate();
+    win = xasm_wininit(new_id, 400.0, 400.0);
+    xasm_wintitle(win, "My window");
+    xasm_winfront(win);
+    xasm_loop(myapp);
 
     return 0;
 }

@@ -15,13 +15,13 @@
 extern	_sel_registerName
 extern	_objc_msgSend
 
-global _xloop
+global _xasm_loop
 
 section .text
 
 s1:	db "run", 0
 
-_xloop:
+_xasm_loop:
 	enter 16, 0
 
 	mov [rbp - 8], rdi

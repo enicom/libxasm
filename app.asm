@@ -17,7 +17,7 @@ extern	_objc_msgSend
 extern	_sel_getUid
 extern  _sel_registerName
 
-global	_xapp
+global	_xasm_app
 
 section .data
 
@@ -27,7 +27,7 @@ s3:	db "run", 0
 
 section .text
 
-_xapp:
+_xasm_app:
 	enter 16, 0
 
 	mov rdi, s1

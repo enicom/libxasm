@@ -18,7 +18,7 @@ extern  _objc_allocateClassPair
 extern	_objc_getClass
 extern	_class_addMethod
  
-global _xwincreate
+global _xasm_wincreate
 
 section .text
 
@@ -26,7 +26,7 @@ s1:	db "NSWindow", 0
 s2:	db "win_event", 0
 s3:	db "alloc", 0
 
-_xwincreate:
+_xasm_wincreate:
 	enter 0, 0
 
 	mov rdi, s1

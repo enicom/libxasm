@@ -18,7 +18,7 @@ extern  _objc_allocateClassPair
 extern	_objc_getClass
 extern	_class_addMethod
 
-global _xwininit
+global _xasm_wininit
 
 section .bss
 	arg1:	resq 1
@@ -31,7 +31,7 @@ section .data
 section .text
 	s4:	db "initWithContentRect:styleMask:backing:defer:", 0
 
-_xwininit:
+_xasm_wininit:
 	enter 32, 0
 
 	mov r14, rdi

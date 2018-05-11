@@ -15,13 +15,13 @@
 extern	_sel_registerName
 extern	_objc_msgSend
 
-global _xwinfront
+global _xasm_winfront
 
 section .text
 
 s1:	db "orderFrontRegardless", 0
 
-_xwinfront:
+_xasm_winfront:
 	enter 0, 0
 
 	mov rbx, rdi

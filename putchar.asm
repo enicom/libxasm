@@ -12,11 +12,11 @@
 ;; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-global _xputchar
+global _xasm_putchar
 
 section .text
 
-_xputchar:
+_xasm_putchar:
 	push rbp
 	mov rbp, rsp
 

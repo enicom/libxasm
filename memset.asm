@@ -12,11 +12,11 @@
 ;; ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 ;; OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-global	_xmemset
+global	_xasm_memset
 
 section .text
 
-_xmemset:
+_xasm_memset:
 	push rbp
 	mov rbp, rsp
 
