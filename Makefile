@@ -21,7 +21,8 @@ SRC =	memset.asm \
 	wincreate.asm \
 	winfront.asm \
 	wininit.asm \
-	wintitle.asm
+	wintitle.asm \
+	setview.asm
 
 FLAGS = -f macho64
 

@@ -28,5 +28,6 @@ void *xasm_winselrect();
 void xasm_loop(void *app);
 void xasm_winfront(void *win);
 void xasm_wintitle(void *win, char *title);
+void xasm_setview(void *win, void *view);
 
 #endif
