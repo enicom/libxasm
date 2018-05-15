@@ -24,6 +24,7 @@ SRC =	memset.asm \
 	wintitle.asm \
 	setview.asm \
 	auview_generic.asm \
+	auview_custom.asm \
 	utf8_to_nss.asm \
 	bundle_create.asm \
 	bundle_getclass.asm \

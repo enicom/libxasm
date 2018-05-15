@@ -26,6 +26,7 @@ void *xasm_wincreate();
 void *xasm_wininit(void *win, double w, double h);
 void *xasm_winselrect();
 void *xasm_auview_generic(void *au);
+void *xasm_auview_custom(void *obj, void *au);
 void *xasm_utf8_to_nss(char *str);
 void *xasm_bundle_create(char *path);
 void *xasm_bundle_getclass(void *bundle, char *name);
