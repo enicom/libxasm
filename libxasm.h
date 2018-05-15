@@ -28,6 +28,7 @@ void *xasm_winselrect();
 void *xasm_auview_generic(void *au);
 void *xasm_utf8_to_nss(char *str);
 void *xasm_bundle_create(char *path);
+void *xasm_bundle_getclass(void *bundle, char *name);
 void xasm_loop(void *app);
 void xasm_winfront(void *win);
 void xasm_wintitle(void *win, char *title);
