@@ -26,7 +26,8 @@ SRC =	memset.asm \
 	auview_generic.asm \
 	utf8_to_nss.asm \
 	bundle_create.asm \
-	bundle_getclass.asm
+	bundle_getclass.asm \
+	obj_alloc.asm
 
 FLAGS = -f macho64
 
