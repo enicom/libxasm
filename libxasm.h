@@ -34,6 +34,7 @@ void *xasm_obj_alloc(void *obj);
 void xasm_loop(void *app);
 void xasm_winfront(void *win);
 void xasm_wintitle(void *win, char *title);
+void xasm_winresize(void *win, void *view);
 void xasm_setview(void *win, void *view);
 
 #endif

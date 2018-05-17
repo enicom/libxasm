@@ -22,6 +22,7 @@ SRC =	memset.asm \
 	winfront.asm \
 	wininit.asm \
 	wintitle.asm \
+	winresize.asm \
 	setview.asm \
 	auview_generic.asm \
 	auview_custom.asm \
